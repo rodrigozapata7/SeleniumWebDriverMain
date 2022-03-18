@@ -1,9 +1,7 @@
 pipeline {
 	agent any
-	tool {
-		//...
-	}
-	stges {
+
+	stages {
 		stage('test'){
 			steps{
 				sh "mvn test"
